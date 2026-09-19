@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'VSPARK Constructions',
-      debugShowCheckedModeBanner: false,
+      title: 'Sample Flutter App',
+      debugShowCheckedModeBanner: true,
       theme: AppTheme.lightTheme,
       home: const HomePage(),
     );
